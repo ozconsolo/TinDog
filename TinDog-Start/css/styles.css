@@ -1,4 +1,24 @@
 /* Use # for id sections */
+body {
+  font-family: "Montserrat", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Title Section */
+
 #title {
   background-color: #FF4C68;
   color: white;
@@ -8,22 +28,11 @@
   margin-right: 10%;
 }
 
-body {
-  font-family: "Montserrat", "sans-serif";
-}
-
-h1 {
+.title-heading {
   font-family: "Montserrat", "sans-serif";
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 .container-fluid {
@@ -137,6 +146,37 @@ h2 {
   padding: 3% 2%;
 }
 
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-header-text {
+  color: white;
+  font-style: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta-download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer section */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
 @media (max-width:1028px) {
   #title {
     text-align: center;
@@ -145,5 +185,9 @@ h2 {
     position:static;
     margin-bottom: 0%;
     transform: rotate(0);
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
   }
 }
